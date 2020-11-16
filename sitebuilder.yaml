@@ -3,5 +3,10 @@
   rhsContent: menu.html
   properties:
     spanRHS: false
+    pageHeading: Tabula API documentation
+    titleBarCaption: Tabula API documentation - IT Services - University of Warwick
+    linkCaption: API documentation
+    description: Documentation for developers about using the Tabula API to programmatically drive Tabula.
+    keywords: [Tabula API, API, Documentation, developer]
   files:
   - files/*
