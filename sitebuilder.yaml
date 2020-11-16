@@ -1,0 +1,6 @@
+- page: /fac/sci/dcs/teaching/material/cs141/test
+  content: content.html
+  properties:
+    spanRHS: true
+  files:
+  - files/*
