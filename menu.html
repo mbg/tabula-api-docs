@@ -1,0 +1,337 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="/fac/sci/dcs/people/michael_gale/tabula/tabula-api.css" />
+	</head>
+	<body>
+
+<div class="box7 contents-list"> 
+  <h2>Tabula API Methods</h2>
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> 
+    <div class="panel"> 
+      <div class="panel-heading" role="tab" id="overview-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#overview" aria-expanded="true" aria-controls="overview"> Overview </a> </h4>
+
+      </div>
+
+      <div id="overview" class="panel-collapse collapse" role="tabpanel" aria-labelledby="overview-heading"> 
+        <div class="panel-body"> 
+          <ul>
+            <li class="in-api"><a href="/services/its/servicessupport/web/tabula/api">Overview</a> </li>
+            <li class="in-authentication"><a href="/services/its/servicessupport/web/tabula/api/authentication">Authentication</a> </li>
+            <li class="in-errors"><a href="/services/its/servicessupport/web/tabula/api/errors">Errors</a> </li>
+            <li class="in-permissions"><a href="/services/its/servicessupport/web/tabula/api/permissions">Permissions</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel"> 
+      <div class="panel-heading" role="tab" id="admin-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#admin" aria-expanded="true" aria-controls="cwrk"> Administration &amp; Information </a> </h4>
+
+      </div>
+
+      <div id="admin" class="panel-collapse collapse" role="tabpanel" aria-labelledby="admin-heading"> 
+        <div class="panel-body"> 
+          <ul>
+            <li class="in-admin"><a href="/services/its/servicessupport/web/tabula/api/admin">Overview</a> </li>
+            <li class="in-list-departments"><a href="/services/its/servicessupport/web/tabula/api/admin/list-departments">List all departments</a> </li>
+            <li class="in-retrieve-department"><a href="/services/its/servicessupport/web/tabula/api/admin/retrieve-department">Retrieve a department</a> </li>
+            <li class="in-list-modules"><a href="/services/its/servicessupport/web/tabula/api/admin/list-modules">List all modules</a> </li>
+            <li class="in-retrieve-module"><a href="/services/its/servicessupport/web/tabula/api/admin/retrieve-module">Retrieve a module</a> </li>
+            <li class="in-department-object"><a href="/services/its/servicessupport/web/tabula/api/admin/department-object">The Department object</a> </li>
+            <li class="in-module-object"><a href="/services/its/servicessupport/web/tabula/api/admin/module-object">The Module object</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel"> 
+      <div class="panel-heading" role="tab" id="cwrk-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#cwrk" aria-expanded="true" aria-controls="cwrk"> Coursework management </a> </h4>
+
+      </div>
+
+      <div id="cwrk" class="panel-collapse collapse" role="tabpanel" aria-labelledby="cwrk-heading"> 
+        <div class="panel-body"> 
+          <ul>
+            <li class="in-coursework"><a href="/services/its/servicessupport/web/tabula/api/coursework">Overview</a> </li>
+            <li class="in-extension-object"><a href="/services/its/servicessupport/web/tabula/api/coursework/extension-object">The Extension object</a> </li>
+            <li class="in-assignments"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments">Assignments</a>               <ul>
+                <li class="in-assignment-object"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/assignment-object">The Assignment object</a> </li>
+                <li class="in-create-assignment"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/create-assignment">Create an assignment</a> </li>
+                <li class="in-retrieve-assignment"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/retrieve-assignment">Retrieve an assignment</a> </li>
+                <li class="in-update-assignment"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/update-assignment">Update an assignment</a> </li>
+                <li class="in-delete-assignment"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/delete-assignment">Delete an assignment</a> </li>
+                <li class="in-list-assignments"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/list-assignments">List all assignments</a> </li>
+                <li class="in-student-assignment-object"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/student-assignment-object">The StudentAssignment object</a> </li>
+                <li class="in-get-member-assignments"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/get-member-assignments">Retrieve a person's assignment information</a> </li>
+                <li class="in-upload-marks-for-assignment"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/upload-marks">Upload marks for an assignment</a> </li>
+              </ul>
+
+            </li>
+            <li class="in-submissions"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions">Submissions</a>               <ul>
+                <li class="in-submission-object"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions/submission-object">The Submission object</a> </li>
+                <li class="in-create-submission"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions/create-submission">Create a submission</a> </li>
+                <li class="in-retrieve-submission"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions/retrieve-submission">Retrieve a submission</a> </li>
+                <li class="in-download-submission-file"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions/download-submission-file">Download a submission</a> </li>
+                <li class="in-list-submissions"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions/list-submissions">List all submissions</a> </li>
+                <li class="in-list-student-submissions"><a href="/services/its/servicessupport/web/tabula/api/coursework/assignments/list-student-submissions">List submissions for a student</a> </li>
+                <li class="in-attachments"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions/attachments">Attachments</a>                   <ul>
+                    <li class="in-attachment-object"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions/attachments/attachment-object">The Submission object</a> </li>
+                    <li class="in-originalityreport-object"><a href="/services/its/servicessupport/web/tabula/api/coursework/submissions/attachments/originalityreport-object">The Originality Report object</a> </li>
+                  </ul>
+
+                </li>
+              </ul>
+
+            </li>
+            <li class="in-turnitin"><a href="/services/its/servicessupport/web/tabula/api/coursework/turnitin">Turnitin</a>               <ul>
+                <li class="in-create-turnitin-job"><a href="/services/its/servicessupport/web/tabula/api/coursework/turnitin/create-turnitin-job">Submit to Turnitin</a> </li>
+                <li class="in-list-turnitin-status"><a href="/services/its/servicessupport/web/tabula/api/coursework/turnitin/list-turnitin-status">List Turnitin status</a> </li>
+                <li class="in-generate-turnitin-report-url"><a href="/services/its/servicessupport/web/tabula/api/coursework/turnitin/generate-turnitin-report-url">View a Turnitin report</a> </li>
+              </ul>
+
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel"> 
+      <div class="panel-heading" role="tab" id="sgt-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#sgt" aria-expanded="true" aria-controls="sgt"> Small group teaching </a> </h4>
+
+      </div>
+
+      <div id="sgt" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sgt-heading"> 
+        <div class="panel-body"> 
+          <ul>
+            <li class="in-groups"><a href="/services/its/servicessupport/web/tabula/api/groups">Overview</a> </li>
+            <li class="in-smallgroupsets"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets">Small Group Sets</a>               <ul>
+                <li class="in-smallgroupset-object"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets/smallgroupset-object">The Small Group Set object</a> </li>
+                <li class="in-create-smallgroupset"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets/create-smallgroupset">Create a small group set</a> </li>
+                <li class="in-retrieve-smallgroupset"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets/retrieve-smallgroupset">Retrieve a small group set</a> </li>
+                <li class="in-update-smallgroupset"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets/update-smallgroupset">Update a small group set</a> </li>
+                <li class="in-delete-smallgroupset"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets/delete-smallgroupset">Delete a small group set</a> </li>
+                <li class="in-list-smallgroupsets"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets/list-smallgroupsets">List all small groups</a> </li>
+                <li class="in-retrieve-allocations"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets/retrieve-allocations">Retrieve small group set allocations</a> </li>
+                <li class="in-update-allocations"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupsets/update-allocations">Update small group set allocations</a> </li>
+              </ul>
+
+            </li>
+            <li class="in-smallgroups"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroups">Small Groups</a>               <ul>
+                <li class="in-smallgroup-object"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroups/smallgroup-object">The Small Group object</a> </li>
+                <li class="in-smallgroupattendance-object"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroups/smallgroupattendance-object">The Small Group Attendance object</a> </li>
+                <li class="in-create-smallgroup"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroups/create-smallgroup">Create a small group</a> </li>
+                <li class="in-update-smallgroup"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroups/update-smallgroup">Update a small group</a> </li>
+                <li class="in-delete-smallgroup"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroups/delete-smallgroup">Delete a small group</a> </li>
+                <li class="in-attendance-for-group"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroups/attendance-for-group">Retrieve attendance for group</a> </li>
+              </ul>
+
+            </li>
+            <li class="in-smallgroupevents"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupevents">Small Group Events</a>               <ul>
+                <li class="in-smallgroupevent-object"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupevents/smallgroupevent-object">The Small Group Event object</a> </li>
+                <li class="in-create-smallgroupevent"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupevents/create-smallgroupevent">Create a small group event</a> </li>
+                <li class="in-update-smallgroupevent"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupevents/update-smallgroupevent">Update a small group event</a> </li>
+                <li class="in-delete-smallgroupevent"><a href="/services/its/servicessupport/web/tabula/api/groups/smallgroupevents/delete-smallgroupevent">Delete a small group event</a> </li>
+              </ul>
+
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel"> 
+      <div class="panel-heading" role="tab" id="monpoints-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#monpoints" aria-expanded="true" aria-controls="monpoints"> Monitoring points </a> </h4>
+
+      </div>
+
+      <div id="monpoints" class="panel-collapse collapse" role="tabpanel" aria-labelledby="monpoints-heading"> 
+        <div class="panel-body"> 
+          <ul>
+            <li class="in-monitoring-points"><a href="/services/its/servicessupport/web/tabula/api/monitoring-points">Overview</a> </li>
+            <li class="in-reporting-to-sits-v1"><a href="/services/its/servicessupport/web/tabula/api/monitoring-points/reporting-to-sits-v1">Monitoring Point Reports (by term)</a> </li>
+            <li class="in-reporting-to-sits-v2"><a href="/services/its/servicessupport/web/tabula/api/monitoring-points/reporting-to-sits-v2">Monitoring Point Reports (by year)</a> </li>
+            <li class="in-member-attendance"><a href="/services/its/servicessupport/web/tabula/api/monitoring-points/member-attendance">Retrieve a student's attendance</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel"> 
+      <div class="panel-heading" role="tab" id="profiles-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#profiles" aria-expanded="true" aria-controls="profiles"> Profiles </a> </h4>
+
+      </div>
+
+      <div id="profiles" class="panel-collapse collapse" role="tabpanel" aria-labelledby="profiles-heading"> 
+        <div class="panel-body"> 
+          <ul id="profiles">
+            <li class="in-member"><a href="/services/its/servicessupport/web/tabula/api/member">Overview</a> </li>
+            <li class="in-member-object"><a href="/services/its/servicessupport/web/tabula/api/member/member-object">The Member object</a> </li>
+            <li class="in-student-course-details-object"><a href="/services/its/servicessupport/web/tabula/api/member/student-course-details-object">The StudentCourseDetails object</a> </li>
+            <li class="in-student-course-year-details-object"><a href="/services/its/servicessupport/web/tabula/api/member/student-course-year-details-object">The StudentCourseYearDetails object</a> </li>
+            <li class="in-student-relationship-object"><a href="/services/its/servicessupport/web/tabula/api/member/student-relationship-object">The StudentRelationship object</a> </li>
+            <li class="in-student-relationship-type-object"><a href="/services/its/servicessupport/web/tabula/api/member/student-relationship-type-object">The Student RelationshipType object</a> </li>
+            <li class="in-module-registration-object"><a href="/services/its/servicessupport/web/tabula/api/member/module-registration-object">The ModuleRegistration object</a> </li>
+            <li class="in-retrieve-member"><a href="/services/its/servicessupport/web/tabula/api/member/retrieve-member">Retrieve a member</a> </li>
+            <li class="in-retrieve-multiple-members"><a href="/services/its/servicessupport/web/tabula/api/member/retrieve-multiple-members">Retrieve multiple members</a> </li>
+            <li class="in-retrieve-member-relationships"><a href="/services/its/servicessupport/web/tabula/api/member/retrieve-member-relationships">Retrieve a member's relationships</a> </li>
+            <li class="in-list-relationship-agents-dept"><a href="/services/its/servicessupport/web/tabula/api/member/list-relationship-agents">List relationship agents in dept.</a> </li>
+            <li class="in-search-for-members"><a href="/services/its/servicessupport/web/tabula/api/member/search-for-members">Search for members</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel"> 
+      <div class="panel-heading" role="tab" id="timetabling-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#timetabling" aria-expanded="true" aria-controls="timetabling"> Timetabling </a> </h4>
+
+      </div>
+
+      <div id="timetabling" class="panel-collapse collapse" role="tabpanel" aria-labelledby="timetabling-heading"> 
+        <div class="panel-body"> 
+          <ul id="timetabling">
+            <li class="in-timetabling"><a href="/services/its/servicessupport/web/tabula/api/timetabling">Overview</a> </li>
+            <li class="in-timetable-event-object"><a href="/services/its/servicessupport/web/tabula/api/timetabling/timetable-event-object">The TimetableEvent object</a> </li>
+            <li class="in-event-occurrence-object"><a href="/services/its/servicessupport/web/tabula/api/timetabling/event-occurrence-object">The EventOccurrence object</a> </li>
+            <li class="in-module-timetable"><a href="/services/its/servicessupport/web/tabula/api/timetabling/module-timetable">Retrieve a module's timetable</a> </li>
+            <li class="in-module-events"><a href="/services/its/servicessupport/web/tabula/api/timetabling/module-events">Retrieve a module's events</a> </li>
+            <li class="in-member-timetable"><a href="/services/its/servicessupport/web/tabula/api/timetabling/member-timetable">Retrieve a person's timetable</a> </li>
+            <li class="in-member-events"><a href="/services/its/servicessupport/web/tabula/api/timetabling/member-events">Retrieve a person's events</a> </li>
+            <li class="in-termdates"><a href="/services/its/servicessupport/web/tabula/api/timetabling/termdates">Retrieve term dates</a> </li>
+            <li class="in-termweeks"><a href="/services/its/servicessupport/web/tabula/api/timetabling/termweeks">Retrieve term weeks</a> </li>
+            <li class="in-holidaydates"><a href="/services/its/servicessupport/web/tabula/api/timetabling/holidaydates">Retrieve holiday dates</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+ [if-group webgroup=in-elab]     <div class="panel"> 
+      <div class="panel-heading" role="tab" id="marksmanagement-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#marksmanagement" aria-expanded="true" aria-controls="marksmanagement"> Marks management </a> </h4>
+
+      </div>
+
+      <div id="marksmanagement" class="panel-collapse collapse" role="tabpanel" aria-labelledby="marksmanagement-heading"> 
+        <div class="panel-body"> 
+          <ul id="marksmanagement">
+            <li class="in-marksmanagement"><a href="/services/its/servicessupport/web/tabula/api/marksmanagement">Overview</a> </li>
+            <li class="in-student-component-mark-object"><a href="/services/its/servicessupport/web/tabula/api/marksmanagement/student-component-mark-object">The StudentComponentMark object</a> </li>
+            <li class="in-retrieve-component-marks"><a href="/services/its/servicessupport/web/tabula/api/marksmanagement/retrieve-component-marks">Retrieve an assessment component's marks</a> </li>
+            <li class="in-update-component-marks"><a href="/services/its/servicessupport/web/tabula/api/marksmanagement/update-component-marks">Update assessment component marks</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+ [/if-group]     <div class="panel"> 
+      <div class="panel-heading" role="tab" id="attachments-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#attachments" aria-expanded="true" aria-controls="attachments"> Attachments </a> </h4>
+
+      </div>
+
+      <div id="attachments" class="panel-collapse collapse" role="tabpanel" aria-labelledby="attachments-heading"> 
+        <div class="panel-body"> 
+          <ul id="attachments">
+            <li class="in-fileattachments"><a href="/services/its/servicessupport/web/tabula/api/fileattachments">Overview</a> </li>
+            <li class="in-file-attachment-object"><a href="/services/its/servicessupport/web/tabula/api/fileattachments/file-attachment-object">The FileAttachment object</a> </li>
+            <li class="in-create-attachment"><a href="/services/its/servicessupport/web/tabula/api/fileattachments/create-attachment">Create an attachment</a> </li>
+            <li class="in-retrieve-attachment"><a href="/services/its/servicessupport/web/tabula/api/fileattachments/retrieve-attachment">Retrieve an attachment's information</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel"> 
+      <div class="panel-heading" role="tab" id="jobs-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#jobs" aria-expanded="true" aria-controls="jobs"> Jobs </a> </h4>
+
+      </div>
+
+      <div id="jobs" class="panel-collapse collapse" role="tabpanel" aria-labelledby="jobs-heading"> 
+        <div class="panel-body"> 
+          <ul id="jobs">
+            <li class="in-jobs"><a href="/services/its/servicessupport/web/tabula/api/jobs">Overview</a> </li>
+            <li class="in-job-instance-object"><a href="/services/its/servicessupport/web/tabula/api/jobs/job-instance-object">The JobInstance object</a> </li>
+            <li class="in-retrieve-job"><a href="/services/its/servicessupport/web/tabula/api/jobs/retrieve-job">Retrieve a job's status</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+ [if-group webgroup=in-elab]     <div class="panel"> 
+      <div class="panel-heading" role="tab" id="its-heading"> 
+        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#its" aria-expanded="true" aria-controls="jobs">Web Dev APIs</a> </h4>
+
+      </div>
+
+      <div id="its" class="panel-collapse collapse" role="tabpanel" aria-labelledby="its-heading"> 
+        <div class="panel-body"> 
+          <ul>
+            <li class="in-search"><a href="/services/its/servicessupport/web/tabula/api/its/search">University ID/usercode search</a> </li>
+            <li class="in-list-relationship-agents"><a href="/services/its/servicessupport/web/tabula/api/its/list-relationship-agents">List relationship agents (by type)</a> </li>
+            <li class="in-fetch-module-students"><a href="/services/its/servicessupport/web/tabula/api/its/fetch-module-students">Fetch module students</a> </li>
+            <li class="in-create-submission-webdev"><a href="/services/its/servicessupport/web/tabula/api/its/create-submission">Create a submission</a> </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+ [/if-group]</div>
+
+</div>
+
+<script type="text/javascript">
+	jQuery(function ($) {
+		'use strict';
+
+		//current page highlighting
+		var bodyClasses = $('body').attr('class').split(' ');
+		var thisPage = bodyClasses[bodyClasses.length-1];
+		$('li.' + thisPage).addClass("highlight").closest('.collapse').collapse('show').addClass('in');
+
+	});
+</script>
+
+
+</body>
+</html>

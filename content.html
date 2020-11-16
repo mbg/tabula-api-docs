@@ -1,9 +1,44 @@
 <html>
-<head>
-    <!-- Put custom CSS, Javascript, etc. here -->
-</head>
+<head></head>
 <body>
-    <h3>My module website</h3>
 
-    <img src="./cs141.png" />
+<p>The Tabula API utilises <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer" target="_blank">REST</a>, using predictable resource-oriented URLs and using HTTP response codes to indicate API errors. The API uses built-in HTTP features like HTTP authentication and verbs, which can be understood by off-the-shelf clients and libraries. JSON will be returned in all responses from the API, including errors.</p>
+
+<h2 id="authentication">Authentication</h2>
+
+<p>All Tabula resources are protected by <a href="http://warwick.ac.uk/sso">Web sign-on</a>. This means that any script will need to pass an ITS user code and password to Tabula. You <em>must</em> ensure that if your scripts store passwords anywhere, they do so in a way which is secure. Failure to do so may result in your access to IT facilities being revoked. API requests <em>should</em> be made using an <a href="http://warwick.ac.uk/sso/externalusercodes">External User</a> account that is setup specifically for API access, contact the ITS web team at [email]webteam@warwick.ac.uk[/email] if you need help setting one up.</p>
+
+<p><a href="authentication">More information and examples</a></p>
+
+<h2 id="resource-management">Resource Management</h2>
+
+<p>It's quite possible to make a client for the Tabula APIs which will overload the server, either by accident or design. We monitor the server load more or less continuously, and will block IP addresses from clients which are causing problems on a 'block-first, ask questions later' basis. If we can't identify you from your IP address, we'll simply block the IP address and wait for you to contact us. You can make it easier for us to find out who you are by including contact info (a name or email address) in your user-agent string.</p>
+
+<h2 id="errors">Errors</h2>
+
+<p>Tabula uses conventional HTTP response codes to indicate success or failure of an API request. In general, codes in the <code>2xx</code> range indicate success, codes in the <code>4xx</code> range indicate an error that resulted from the provided information (e.g. a required parameter was missing or in the wrong format), and codes in the <code>5xx</code> range indicate an error with the Tabula server.</p>
+
+<p><a href="errors">More information and examples</a></p>
+
+<h2 id="versioning">Versioning</h2>
+
+<p>We aim to never release backwards-incompatible changes to the Tabula API for the version requested. We may introduce more fields in the output in the same version, but will never remove or change the format of existing fields.</p>
+
+<h2 id="sandbox">Tabula Sandbox</h2>
+
+<p>You can use <a href="https://tabula-sandbox.warwick.ac.uk/">tabula-sandbox.warwick.ac.uk</a> to test Tabula's features and functionality without affecting any real data. If you would like access to Tabula Sandbox, please send an email to [email]tabula@warwick.ac.uk[/email].</p>
+
+<p>There are some important differences in this version of Tabula:</p>
+
+<ul>
+  <li>Features and functionality may be enabled that are not enabled on the live system</li>
+  <li>No staff data exists on the system at all</li>
+  <li>Student data is automatically generated, using fake names</li>
+  <li>No emails will be sent by the system, so feel free to play around without worrying</li>
+</ul>
+
+<p>Please make sure you do not upload any sensitive data to the sandbox, such as anything relating to real students.</p>
+
+
 </body>
+</html>

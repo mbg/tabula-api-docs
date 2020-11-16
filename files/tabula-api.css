@@ -1,0 +1,110 @@
+/* Tabula Manual ID7 */
+
+dl.sub dt{
+    color: #065178;
+    background-color: #e2e2e2;
+    display: inline;
+    padding: 0px 6px;
+    border-radius: 8px;
+}
+
+/*** example boxes ***/
+.in-manual .example {
+    background-color: #cae6f0;
+    border: none;
+}
+
+.in-manual .alert {
+    background-color: #cae6f0;
+    border: none;
+    background-image: url('/tabula/screenshots/question-icon-purple.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/*** Persistent table of contents ***/
+
+.column-2-content a, .column-2-content a:visited {
+    text-decoration: none;
+}
+
+.column-2-content a:hover {
+    text-decoration: underline;
+}
+
+.contents-list { 
+    background-color: #f2e8cf;
+    padding: 20px 10px;
+}
+
+#accordion h4 {
+    margin: 0 0 0.2em;
+    line-height: 1.4em;
+}
+
+#accordion ul {
+    list-style-type :none;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0 8px;
+    overflow: hidden;
+}
+
+#accordion ul li { /* restyle any nested list item */
+    font-weight: normal; 
+}
+
+#accordion ul li li:before {
+    content: "- ";
+}
+
+#accordion ul li li {
+    margin-left: 1.5em;
+}
+
+#accordion ul > li.highlight {
+    background-color: #d8d8cf;
+    background-size: 28px;
+    display: inline-block;
+    margin-left: -0.6em !important;
+    padding-left: 1.8em;
+    border-left: 4px solid #185c54;
+    width: 95%;
+}
+
+a.home-button {
+    padding: 6px 16px;
+    color: white;
+    display: inline-block;
+    background-color: #239B92;
+    margin: 10px 0px;
+}
+
+#accordion h4.accordion-toggle:after {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid #256287;
+    border-top: 5px solid transparent;
+    content: '';
+    position: absolute;
+    margin: 11px;
+/*     -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;*/
+}
+
+
+#accordion h4.accordion-toggle:hover:after,
+#accordion h4.ui-state-active:after  {
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-top: 8px;
+}
+
+code {
+   word-wrap: break-word;
+}

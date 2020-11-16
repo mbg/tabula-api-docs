@@ -1,6 +1,7 @@
-- page: /fac/sci/dcs/teaching/material/cs141/test
+- page: /fac/sci/dcs/people/michael_gale/tabula
   content: content.html
+  rhsContent: menu.html
   properties:
-    spanRHS: true
+    spanRHS: false
   files:
   - files/*
